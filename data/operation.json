@@ -1,0 +1,128 @@
+[
+    {
+        "id": 0,
+        "question": "Let \\[f(n) =\n\\begin{cases}\n4n+3 &\\text{if }n<a, \\\\\n7n-12 &\\text{if }n\\ge{a}.\n\\end{cases}\n\\]Find $a$ if the graph of $y=f(n)$ is continuous.",
+        "answer": [
+            "5"
+        ],
+        "img_path": "",
+        "meta_info": "operation"
+    },
+    {
+        "id": 11,
+        "question": "### Story Rule:\n\nIn the Transformers universe, the origins of the Autobots and Decepticons trace back to their home planet Cybertron, a metallic world inhabited by sentient robots capable of transformation. Cybertron was once a peaceful planet ruled by the High Council, the original rulers of Cybertron. However, a rift developed between two key figures: Optimus Prime, who would become the leader of the Autobots, and Megatron, who would become the head of the Decepticons. The inhabitants of Cybertron are mechanical life forms composed of metal and mechanical parts.\nOptimus Prime believes in the freedom of all sentient beings and advocates for a vision of harmonious coexistence. On the other hand, Megatron, initially a gladiator, was disillusioned with the existing system. He envisioned a society ruled by the strongest, leading him to form the Decepticons.\nThe rift between Optimus Prime and Megatron resulted in a civil war that split Cybertronian society into Autobots (primarily civilian vehicles) and Decepticons (mostly military vehicles). The war was so devastating that Cybertron became uninhabitable, causing both Autobots and Decepticons to disperse across the galaxy.\nThe Autobots and Decepticons eventually arrived on Earth, continuing their conflict with Earth's fate hanging in the balance. The ideological differences between their respective leaders—Optimus Prime's belief in freedom and equality versus Megatron's belief in survival of the fittest—continuously drive the conflict. In 1991, the first secret contact of Cybertron with humanity was discovered.\nDespite both factions having hierarchical structures, the leadership structures of the Autobots and Decepticons differ in principle, reflecting the overall spirit of the two factions. \nStarting with the Autobots, the organization is led by a leader, a title that signifies the leader of Autobot strength. This title has been held by several characters throughout the Transformers universe, with Optimus Prime being the most renowned. The leader is typically chosen by the Matrix of Leadership, a powerful artifact passed from one Autobot leader to another. This tradition symbolizes the ideals of democracy and elite governance within the Autobot faction.\nThe role of the leader is not only that of a battlefield commander but also a source of moral guidance and wisdom. Leaders are often seen making decisions that prioritize the well-being of all sentient life and are known for their compassion, courage, and commitment to peace and freedom. The second-in-command, known as the Commander, supports the leader. They lead individual teams or units and are chosen for their strategic abilities and leadership qualities.\nOn the other hand, the Decepticons' leadership structure is more dictatorial and militarized. The organization is led by their most powerful and ruthless members, emphasizing the Decepticons' belief in \"survival of the fittest.\" Megatron, the most notable Decepticon leader, seized control through strength and intimidation. In 2007, the Decepticon leader Megatron was discovered.\nDecepticon leaders maintain their positions by displaying power, using their strength or cunning to deter challengers. While subordinates may serve loyally, they often plot to overthrow their leaders to gain power, leading to constant power struggles within the faction. This ongoing tension reflects the Decepticons' aggressive and power-driven ideology.\nCybertronian form refers to the original or native form of Transformers before they acquire Earth-based modes. On their home planet Cybertron, Transformers take on mechanical life forms that can transform into various objects, vehicles, or even animal-like shapes. In their Cybertronian forms, Transformers usually adopt more alien, often abstract or geometric configurations that hint at their functions or purposes. Some may transform into Cybertronian vehicles or weapons, while others may transform into various complex mechanical devices.\nIn the Transformers universe, Rescue Bots are the Autobots' medical experts responsible for the medical care of Transformers.\nThe ability of Transformers to transform is not merely a means of disguise or transportation. It is a fundamental part of their biology—or more accurately, their \"mechanics.\" This ability is as natural to them as walking or running is to humans, having been \"forged\" with it. This transformation capability is driven by the \"T-Cog,\" a component that allows Transformers to change their forms at will.\nThe Matrix of Leadership, also known as the Allspark, plays a crucial role in the mythology of the Transformers universe. It is often described as a large metallic cube emitting mysterious energy, essentially the life force of all Transformers, with the power to create new Transformer life and, in some cases, restore deactivated Transformers. The Allspark is regarded as the source of all Transformer life. It not only creates new Transformers but also can revive deactivated Transformers, possessing crucial vitality. Energon is the primary source of energy for all Transformers.\nIn the Transformers universe, Teletraan I is the primary computer system used for communication among Autobots.\n\n### Question:\nHow are leaders elected?\nOptions: A. By democratic election ##B. By leadership matrix or by strength and intimidation ## C. Selection by lottery ##D. Random selection",
+        "answer": [
+            "[[B]]"
+        ],
+        "img_path": "",
+        "meta_info": "operation"
+    },
+    {
+        "id": 18,
+        "question": "### Operation Rule:\n\nA￡B=(A∪B)−(A∩B).\n\n### Question:\nA={x,y,z}, B={w,x,z}.\nCompute A￡B.",
+        "answer": [
+            "[[{w,y}]]"
+        ],
+        "img_path": "",
+        "meta_info": "operation"
+    },
+    {
+        "id": 43,
+        "question": "### Operation Rule:\n\na¥b=a^b-b^a.\na and b are positive integers.\n\n### Question:\nIf X¥2=1, find X.\nThe answer should only be given as a number.",
+        "answer": [
+            "[[3]]"
+        ],
+        "img_path": "",
+        "meta_info": "operation"
+    },
+    {
+        "id": 45,
+        "question": "The expression $$1 + 2 + 3 - 4 + 5 + 6$$is equivalent to 13. If we add parentheses in various locations, we can change this value. For example, $1+2+3-(4+5)+6=1+2+3-9+6=6-9+6=3$. If we only add parentheses (and not rearrange the order of the terms), what is the minimum possible value this expression can obtain? (For the purposes of this problem, we cannot change addition or subtraction into multiplication. For example, $ (1+2+3)(-4)+5+6 $ is not a valid placement of parentheses.)\n\nEnter your answer as a single value.",
+        "answer": [
+            "-9"
+        ],
+        "img_path": "",
+        "meta_info": "operation"
+    },
+    {
+        "id": 48,
+        "question": "### Story Rule:\n\nIn Qin's Moon, Tianming once saw watermelon stalls and lamb skewers sprinkled with cumin by the street. \nThe Mohist school's mechanism skills, known as \"non-aggression\" mechanisms, were used to assist people in their daily lives and work, enabling them to transport heavier goods, run faster, and jump higher. The Mohist school excelled in military inventions focused on defense. The Gongshu Ban family's mechanism skills are known as \"domineering\" mechanisms, and their inventions were specifically crafted for launching attacks in warfare. \nThe Mohist school invented a wooden bird capable of carrying people for long distances in the sky. \nIn the battle against Gai Nie and Jing Tianming, Mingzhuang ordered Wu Shuang to attack. As a result, Wu Shuang, who was severely injured, was killed by Gai Nie. Later, Gongshu Chou noticed the extraordinary strength and robust physique of Wushuang's bones and muscles, deeming him suitable for transformation into a mechanical being. Consequently, he transformed Wu Shuang into a mechanical being—Mechanical Wu Shuang. \nThe 'Liu Sha' organization, literally means flowing sand or quicksand, was originally founded by Han Fei, who invited Wei Zhuang, Zhang Liang, and Zi Nu to join. Its purpose was to eliminate corrupt forces, to save the state of Han, and even to establish its dominance over the seven states. After the death of Han Fei in the Qin State, the organization ostensibly transformed into a professional assassin group under the command of Wei Zhuang. Hired by individuals, they carried out indiscriminate assassination missions within the Seven States, gaining a notorious reputation that instilled fear in all who heard of them. \nFuni, Yan Lu, and Zhang Liang are collectively known as the \"Three Outstanding Figures of Qi and Lu.\" They are influential Confucian figures and have long resided in the Little Sage Manor. \nThe \"Dream Butterfly Vanish\" is a Taoist art of escape that can alter spatial arrangements, achieving the effect of displacement and exchange. However, this technique cannot be activated out of thin air and requires the assistance of other mediums. In a competition, Funiann from Confucianism and Xiaomeng from Taoism engaged in their final battle, unleashing their inner strength. Xiaomeng took the initiative, manipulating the water flow with inner power, condensing it into the character \"Dao\" in the air. Funiann, in response, used water to form the character \"Li,\" and the strengths of both seemed evenly matched. Later, Xiaomeng transformed the waterformed \"Dao\" into small water droplets, showcasing a myriad of beautiful scenes with his skillful changes. \nChen Sheng challenged experts from seven states, continuously committing serious crimes and eventually being thrown into the death prison. While being captured across the seven states, he had inscriptions carved on him in the languages of the seven different countries. Ultimately, he was captured by Gai Nie, a swordsman from the state of Qin, and taken to the Fangs-Devouring Dungeon. \nThe White Phoenix is a massive bird and serves as the mount during Bai Feng's youth. Ge Nie employed a special breathing technique from the Guiguzi school and remained unharmed by the poisonous gas. \nLuo Wang is a vast and formidable mysterious organization under the Great Qin Empire, symbolized by the 'spider.' The influence of Luo Wang spans across the seven states, collaborating with the powers of each state. \nThe Mohist school was one of the main anti-Qin forces, and its leader, Yan Dan, sent Jing Ke to assassinate Ying Zheng, king of Qin. \nIn the late Spring and Autumn Period, the predecessors of the Yin-Yang School separated from Taoism, took an unconventional path, and formed their own school. The Yin-Yang Curse Seal is a kind of Yin-Yang forbidden technique of the Yin-Yang School. Yin-Yang curses are a type of ancient shamanistic art with many variations; the outcomes vary depending on the specific curse method used. The Yin and Yang's Corpse Deity Sprite Curse can disable a person's internal skills. The Fearsome Curse of the Six Souls is used for killing. \nWhen confronted by the massive amount of literature to read on mechanisms, Ziming doubts that he will ever learn it all, but Master Ban gives him the Exalting Unity Mohist Cube  and says if he can solve it, he will understand Mohist mechanisms.The Exalting Unity Mohist Cube is a cube composed of six faces, each face being a square and divided into nine small blocks to form a 3x3 grid. Initially, the color of the small blocks on each face is the same, and the colors on different faces are different. Through rotation, the small blocks can be moved to other faces, thereby scrambling it, and it can also be restored to its original state through rotation. Ziming spends days trying to solve the Exalting Unity Mohist Cube and is finally told that only the Mohist leader and Master Ban can solve it. \nThe Fu Sang Sacred Tree originally grew on Mount Shu, but later it was transplanted onto a large ship. Legend has it that it serves as a gateway connecting the divine realm, human realm, and the underworld, with a three-legged Golden Crow flying above it. Eventually, Tianming encountered the three-legged Golden Crow near the Fu Sang Sacred Tree. \nThe Mohist School invented a weapon that could transform into various forms, including boomerangs, swords, shields, crossbows, and more. \nShengqi once, in front of Crimson Snake, swallowed a whole venomous snake raised by the Red Lian sect without experiencing any discomfort after that. When Duanmu Rong was in a coma, Crimson Snake added a leaf from the Blood-Stained Jade Leaf Flower to the venom from a Green-Scaled Fiery Snake to cure her. \nButcher Ding is a chef surnamed Ding, and his Butcher's Saber Skill comprises various techniques, each inspired by a specific dish. Butcher Ding passed on his knife skills to Tianming. The unparalleled master of Daoism, Zhuangzi, was amazed by Butcher Ding's extraordinary knife skills. He specifically recorded the exceptional nature of the Butcher's Saber Skill in a section dedicated to the art of nurturing life. \nQin Dynasty musician Kuang Xiu was the sole heir to the musical score \"High Mountains, Flowing Waters.\" Captured for aiding a rebel's escape, he feared the loss of the score and asked Jing Ke to bring it to his friend Gao Jianli. Gao Jianli, receiving the score from Jing Ke, was astonished. Both Gao Jianli and Kuang Xiu were passionate about the art of the qin. They decided to take the risk and meet for the last time in Qin. Outside the city, with Jing Ke's assistance, they disregarded the ambush by the Qin army, playing \"High Mountains, Flowing Waters\" together. They fulfilled Kuang Xiu's last wish, leaving behind a timeless masterpiece.\n\n### Question:\nWhich statement is correct regarding the mechanical technology during the Qin Dynasty?\nOptions: A. During the Qin Dynasty, there were already war machines known as mechanical beasts, typically large in size, all of which required a person to sit on top to operate.##B. Although the Qin Dynasty adopted some mechanical manufacturing techniques to produce weapons and military equipment, such as crossbows, there were no mechanical beasts capable of automatically locking onto and attacking targets.##C. During the Qin Dynasty, cyborgs existed, and after a person's death, their body could be reconstructed into a mechanical being using various components.##D. During the Qin Dynasty, tools made of iron had not yet been developed.",
+        "answer": [
+            "[[C]]"
+        ],
+        "img_path": "",
+        "meta_info": "operation"
+    },
+    {
+        "id": 55,
+        "question": "Sam is carrying a 2 gallon bucket of milk to his house from the barn, which is 3 miles away from his house. However, the bucket has a leak in it. For each mile he walks, there is $\\frac{2}{3}$ as much milk in the bucket as at the beginning of the mile. How many gallons of milk will be in the bucket when Sam gets home?",
+        "answer": [
+            "\\frac{16}{27}"
+        ],
+        "img_path": "",
+        "meta_info": "operation"
+    },
+    {
+        "id": 62,
+        "question": "### Operation Rule:\n\nf□g=f'(x) \\quad +g'(x) \\quad.\n\n### Question:\nf(x)=cos(x), g(x)=x^3 , compute f□g.\nPlease provide your answer in LaTeX format. \nWrap the final answer in double square brackets, like this: [[your answer]].\n\n### Answer:",
+        "answer": [
+            "[[-\\sin(x)+3x^2]]"
+        ],
+        "img_path": "",
+        "meta_info": "operation"
+    },
+    {
+        "id": 71,
+        "question": "### Operation Rule:\n\na◎b=(a + bi)^2\n\n### Question:\nCompute (4◎5)+(2◎3).\nIf the answer is a complex number, write it in the form x + yi.\nThe answer may be negative, if so write it in a format such as '-5'.",
+        "answer": [
+            "[[-14+52i]]"
+        ],
+        "img_path": "",
+        "meta_info": "operation"
+    },
+    {
+        "id": 73,
+        "question": "### Operation Rule:\n\na￠b=\\log_{b}{a}+\\log_{a}{b}.\na and b are positive integers.\n\n### Question:\nIf 512￠X=82/9, find X.\nThe answer should only be given as a number.",
+        "answer": [
+            "[[2]]"
+        ],
+        "img_path": "",
+        "meta_info": "operation"
+    },
+    {
+        "id": 74,
+        "question": "### Story Rule:\n\nProfessor Oak is renowned in the Pokémon world for his extensive research on Pokémon and their relationships with humans. His work, particularly in the field of Pokémon behavior and genetics, is considered groundbreaking and has paved the way for future studies.\nIn the world of Pokémon, teleportation is a known phenomenon, with Psychic-type Pokémon like Abra having the ability to teleport themselves and others instantly to different locations. This mode of transportation would drastically reduce travel time and has the potential to revolutionize city travel.\nPidgey, known as the Tiny Bird Pokémon, has been used traditionally in the Pokémon world for carrying messages over long distances. Their remarkable homing instinct ensures that they can deliver mail to any location without error, an invaluable service for communication in remote areas.\nIn the Pokémon universe, Dragonite is known for its incredible speed and ability to fly. The Dragonite express delivery service would take advantage of these traits to transport goods quickly and efficiently across great distances, revolutionizing logistics in the Pokémon world.\nCastform is a Weather Pokémon that has the unique ability to transform its appearance based on the current weather conditions. In the Pokémon world, Castform's transformations can predict weather changes, providing a natural and reliable method of weather forecasting.\nGarbodor, the Trash Heap Pokémon, consumes garbage, which allows it to grow and evolve. Utilizing Garbodor in urban areas for waste processing could potentially offer a biological solution to managing and reducing waste in the Pokémon world.\nIn the Pokémon universe, the Pokédex is an electronic device designed to catalog and provide information regarding the various species of Pokémon. It is considered the most comprehensive source of knowledge on Pokémon biodiversity, constantly updated with new discoveries by trainers around the world.\nIn Pokémon, a Chansey is known for its healing abilities and often helps treat Pokémon in Pokémon Centers.\nJenny is a symbol of law enforcement in the Pokémon world, often handling public issues.\nAn Ice Beam from a Pokémon like Articuno could freeze and preserve food effectively.\nCanalave City's library holds a vast collection of the world's history in the Pokémon universe.\nPikachu can generate electricity, making it useful for power restoration in the Pokémon world.\nSunny Day is a move that stimulates sunlight, which can enhance photosynthesis and crop growth in the Pokémon world.\nLapras is known for ferrying people over water in the Pokémon world.\nDragonite is often depicted as a rescue Pokémon due to its intelligence and flight ability.\nDefog is a move that clears obstacles, including potentially air pollutants, in Pokémon games.\nFull Restore is a Pokémon item that cures any ailment, including a Pokémon's equivalent of a cold.\nPikachu is an Electric-type Pokémon, making it a practical example of electricity in the Pokémon world.\nScyther, a Bug-type Pokémon, could hypothetically manage pests in crops in the Pokémon world.\nCastform's form changes with the weather, hence it's used for predictions in Pokémon.\n\n### Question:\nFor a science project on electricity, one could?\nOptions: A. Build a circuit##B. Study a battery##C. Observe a Pikachu##D. Find a Zap Plate",
+        "answer": [
+            "[[C]]"
+        ],
+        "img_path": "",
+        "meta_info": "operation"
+    },
+    {
+        "id": 79,
+        "question": "### Operation Rule:\n\nf▽g=f(x) \\quad+g''(x) \\quad.\n\n### Question:\nf(x)=sin(x), g(x)=ln(x), compute f▽g.\nPlease provide your answer in LaTeX format. \nWrap the final answer in double square brackets, like this: [[your answer]].\n\n### Answer:",
+        "answer": [
+            "[[\\sin(x)-\\frac{1}{x^2}]]"
+        ],
+        "img_path": "",
+        "meta_info": "operation"
+    },
+    {
+        "id": 85,
+        "question": "### Operation Rule:\n\na★b=\\int_{a}^{b} 2x \\, dx\n\n### Question:\nCompute 0★2.\nPlease ensure the answer is a single number and wrap it in double square brackets, like this: [[your answer]].\n\n### Answer:",
+        "answer": [
+            "[[4]]"
+        ],
+        "img_path": "",
+        "meta_info": "operation"
+    },
+    {
+        "id": 88,
+        "question": "### Operation Rule:\n\na♀b=(a+b)/2\na♂b=a×4+b\n\n### Question:\nCompute (3♀5)♂2.\nPlease ensure the answer is a single number and wrap it in double square brackets, like this: [[your answer]].\n\n### Answer:",
+        "answer": [
+            "[[18]]"
+        ],
+        "img_path": "",
+        "meta_info": "operation"
+    }
+]
