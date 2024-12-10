@@ -1,0 +1,146 @@
+[
+    {
+        "id": 1,
+        "question": "### Puzzle Rule:\n\n1.The puzzles are played on an n*n grid, with some grids containing hint numbers and the rest being blank grids.\n2.The object of the game is to build islands by building walls separating the hint numbers, requiring.\n3.Each island contains only one hint number.\n4.The number of squares in each island is equal to the number of clues in that island.\n5.Islands are separated from each other vertically or horizontally.\n6.There are no 2x2 or larger rectangles in the area formed by the wall.\n7.Walls can form a continuous path.\n8.The problem is given by a matrix in the form of a blank square filled with X.The player should replace the grid on which the wall is built with A and output the drawn matrix, which contains X (the blank island), A (the wall) and the numbers.\n\n### Question:\nX X 2 X X 3 X X\nX 1 X X X X X X\nX X X X 3 X X X\nX X 4 X X X X 3\n1 X X X X X 3 X\nX X X X X X X X\nX X X X 3 X X X\n4 X X X X X X X\n\nPlease provide each element in order from left to right, and from top to bottom, with each element separated by a space and each row separated by a comma.",
+        "answer": [
+            "[[A A 2 X A 3 X X,A 1 A A A A A A,A A A X 3 A X X,A X 4 A X A A 3,1 A X A A A 3 A,A A X A X A X A,X A A A 3 A X A,4 X X A X A A A]]"
+        ],
+        "img_path": "",
+        "meta_info": "puzzle"
+    },
+    {
+        "id": 3,
+        "question": "### Puzzle Rule:\n\n1.A series of words will be given in the question.\n2.These words have one thing in common, usually the same prefix of a suffix or the same combination of letters.\n3.This commonality will be given in the question.\n4.You need to answer which words or letter combinations are common to each of these words. e.g. If each of these words contains the name of an animal, the answer needs to be the name of the animal contained in each word in turn.\n\n### Question:\n\"sunflower pineapple butterfly newspaper catfish\", these words are all made up of two nouns words.\nPlease output the nouns that make up each word.\nPlease provide your answer in the same order as the words, and make sure to enclose your answer in double square brackets, like this: [[word1 word2 ...]].\n\n### Answer:",
+        "answer": [
+            "[[sun flower pine apple butter fly news paper cat fish]]"
+        ],
+        "img_path": "",
+        "meta_info": "puzzle"
+    },
+    {
+        "id": 7,
+        "question": "### Puzzle Rule:\n\n1.Given a set of letter combinations.\n2.Add the same prefix or suffix before or after the letter combinations to form meaningful words.\n3.Output is the prefix or suffix.\n\n### Question:\nAdd a common suffix to these letter combinations to make a word: sub ob pro re.",
+        "answer": [
+            "[[ject]]"
+        ],
+        "img_path": "",
+        "meta_info": "puzzle"
+    },
+    {
+        "id": 16,
+        "question": "### Puzzle Rule:\n\n1.A rectangular grid is given with a number at the end of each row and column indicating the sum of the weights of the filled black cells in that row or column.\n2.In column i, the weight of the black grid is equal to its position in that column (i.e., 1 through n). Similarly, the weight of the black grid in row j is equal to its position in that row (i.e. 1 through n).\n3.The player needs to blacken a number of cells in the grid such that the sum of the weights of the black cells in each row and column is equal to the given numbers.\n4.The problem is given by a matrix in the form of a blank grid filled with X. Below and to the right of the matrix are attached the numerical constraints mentioned above. The player replaces the grid to be blacked out with 1.\n\n### Question:\nX  X  X  X  2\nX  X  X  X  9\nX  X  X  X  6\nX  X  X  X  6\n4  10  6  5  \n\nThe final answer should be given in order from left to right, top to bottom with each element separated by a space and different lines separated by \",\". Wrap your final answer in double square brackets, like this: [[your answer]].\n\n### Answer:",
+        "answer": [
+            "[[X 1 X X,X 1 1 1,X 1 X 1,1 1 1 X]]"
+        ],
+        "img_path": "",
+        "meta_info": "puzzle"
+    },
+    {
+        "id": 32,
+        "question": "### Puzzle Rule:\n\n1.A series of words will be given in the question.\n2.These words have one thing in common, usually the same prefix of a suffix or the same combination of letters.\n3.This commonality will be given in the question.\n4.You need to answer which words or letter combinations are common to each of these words. e.g. If each of these words contains the name of an animal, the answer needs to be the name of the animal contained in each word in turn.\n\n### Question:\n\"fig must hind slow smug\", these words can become a weather condition by change one letter.\nPlease output the weather condition that they can be changed to.\nPlease provide your answer in the same order as the words, and make sure to enclose your answer in double square brackets, like this: [[word1 word2 ...]].\n\n### Answer:",
+        "answer": [
+            "[[fog mist wind snow smog]]"
+        ],
+        "img_path": "",
+        "meta_info": "puzzle"
+    },
+    {
+        "id": 36,
+        "question": "### Puzzle Rule:\n\n1.The game is played on a square grid of letters.\n2.The player is given a set of words to find on the grid.\n3.The words can be arranged horizontally, vertically, diagonally, backwards or staggered.\n4.Find all hidden words and label them.\n\n### Question:\nYJLBAFYTTCL \nSKYSQVONION \nUASPARAGUSO\nMLMCELMRLUB\nBEETPVKWKSK\nXNVGKOCDPOJ\nNNGZCGCICYT \nGERIIDNHMOC\nRFQOHAGPAWR\nSLCUCUMBERG\nEKOHCITRARD\n\nWord List:\nARTICHOKE EGGPLANT ASPARAGUS FENNEL BEET KALE CHARD OKRA CHICKPEA ONION CORN SPINACH CUCUMBER YAM.\nThe answer should be the coordinates of the start and end points of these words in the format (row i, column j), e.g., BACH (12,4)(12,1) means that the word BACH starts with a letter in column 4 of row 12 and ends with a letter in column 1 of row 12. The output order should be the same as the order in the word list. Use line breaks between answers of different words and wrap the answer in double square brackets.\ne.g.\nSuppose the word list is BACH MOZART BRAHMS\nThe answer should be:\n[[BACH (12,4)(12,1) \nMOZART(13,7)(13,2) \nBRAHMS (7,7)(12,12)]]\n\n### Answer:",
+        "answer": [
+            "[[ARTICHOKE (11,9)(11,1)\nEGGPLANT (9,2)(1,9)\nASPARAGUS (3,2)(3,10)\nFENNEL (9,2)(4,2)\nBEET (5,1)(5,4)\nKALE (2,2)(5,2)\nCHARD (7,7)(11,11)\nOKRA (6,10)(3,7)\nCHICKPEA (10,5)(3,5)\nONION (7,2)(11,2)\nCORN (10,5)(7,2)\nSPINACH (5,10)(11,4)\nCUCUMBER (10,3)(10,10)\nYAM (2,3)(4,1)]]"
+        ],
+        "img_path": "",
+        "meta_info": "puzzle"
+    },
+    {
+        "id": 42,
+        "question": "### Puzzle Rule:\n\n1.The game is played on an n*n grid, under each of which a mine may be hidden or empty.\n2.Some squares show a number indicating the number of mines around them (8 squares including the diagonal).\n3.Our puzzle uses X to fill the squares without numbers.\n4.The player needs to find all the squares where mines are located and replace X with A.\n\n### Question:\nX\t1\tX\tX\t1\n1\tX\tX\tX\tX\n2\t2\tX\tX\t1\n1\tX\tX\tX\t1\nX\t2\tX\t1\tX",
+        "answer": [
+            "[[X 1 X A 1,1 A X X X,2 2 X A 1,1 A X X 1,X 2 A 1 X]]"
+        ],
+        "img_path": "",
+        "meta_info": "puzzle"
+    },
+    {
+        "id": 44,
+        "question": "### Puzzle Rule:\n\n1.The puzzles are played on a grid and the questions are given in the form of a matrix, consisting of X and 0.\n2.The player needs to replace X for filling in d letters and 0 for separating words that cannot be filled in with letters.\n3.Two lists of words are given, across and down. Across means fill in the words from left to right, and down means fill in the words from top to bottom.\n4.During the game, many words will cross each other and share some letters.The letters that cross must match.\n5.The question consists of a list of words and a matrix, where X denotes a grid to be filled with letters and 0 denotes a grid that does not need to be filled with letters,e.g.\nX X X\n0 X 0\n0 X 0\n\n### Question:\nacross:WON\ndown:NOW OWN\nX\t0\t0\nX\tX\tX\nX\t0\tX\n0\t0\tX\nThe answer should be given from left to right, top to bottom. Separate elements with a space and rows with a comma. Wrap the entire answer in double square brackets.\n\n### Answer:",
+        "answer": [
+            "[[O 0 0,W O N,N 0 O,0 0 W]]"
+        ],
+        "img_path": "",
+        "meta_info": "puzzle"
+    },
+    {
+        "id": 52,
+        "question": "### Puzzle Rule:\n\n1.The game is played on a grid consisting of several partitions (zones). Each partition consists of a number of squares.\n2.Place stars in the given grid.\n3.n stars are placed in each row and column.\n4.n stars are placed in each partition.\n5.Stars cannot be adjacent, i.e., there can be no stars in adjacent squares (including diagonally adjacent).\n6.The question is given in the form of a matrix with different regions labeled with different letters, e.g. the grid where all the letters A are located forms a region and the answer should list the coordinates of the stars in each region, e.g. A:(row i, column j)\n\n### Question:\nA\tA\tA\tB\tB\tC\tC\tC\tC\tD\nA\tA\tB\tB\tB\tC\tC\tC\tC\tD\nA\tA\tA\tA\tB\tC\tD\tD\tD\tD\nA\tA\tA\tA\tB\tC\tD\tD\tD\tD\nA\tA\tA\tF\tB\tF\tG\tD\tD\tD\nE\tA\tF\tF\tF\tF\tG\tG\tG\tD\nE\tE\tE\tF\tF\tF\tF\tI\tG\tD\nH\tE\tH\tH\tF\tF\tI\tI\tG\tG\nH\tH\tH\tH\tH\tI\tI\tJ\tJ\tG\nH\tH\tH\tH\tH\tJ\tJ\tJ\tJ\tJ\n\nOutput in alphabetical order, if there are more than one stellar coordinates in a region, write the coordinates of the answer with the smallest number of rows first, if the number of rows is the same, then write the one with the smallest number of columns first, and the coordinates of the different regions are separated by a line breaker.",
+        "answer": [
+            "[[A(2,2)(4,2)\nB(1,4)(5,3)\nC(1,6)(2,9)\nD(3,7)(4,10)\nE(6,1)(7,3)\nF(5,4)(7,5)\nG(5,7)(6,9)\nH(8,1)(9,3)\nI(8,8)(9,6)\nJ(10,8)(10,10)]]"
+        ],
+        "img_path": "",
+        "meta_info": "puzzle"
+    },
+    {
+        "id": 53,
+        "question": "### Puzzle Rule:\n\n1.The puzzle gives a set of letters and the number and length of words to be spelled, e.g. 2 words: 2 letters, 3 letters, 3 letters.\n2.The player has to use the given letters to spell a word of the required length and number of letters.\n3.Each letter can be used at most once in a word.\n\n### Question:\nT I E D 5 words: 4 letter,4 letter,4 letter,4 letter,4 letter.\nThe answers should be given in order,i.e. If the requirement is for 3 words: 2 letter,3 letter,3 letter then a two letter word is given first followed by two three letter words separated by spaces.",
+        "answer": [
+            "[[diet dite edit tide tied]]"
+        ],
+        "img_path": "",
+        "meta_info": "puzzle"
+    },
+    {
+        "id": 58,
+        "question": "### Puzzle Rule:\n\n1.The game is played on a grid consisting of several partitions (zones). Each partition consists of a number of squares.\n2.Place stars in the given grid.\n3.n stars are placed in each row and column.\n4.n stars are placed in each partition.\n5.Stars cannot be adjacent, i.e., there can be no stars in adjacent squares (including diagonally adjacent).\n6.The question is given in the form of a matrix with different regions labeled with different letters, e.g. the grid where all the letters A are located forms a region and the answer should list the coordinates of the stars in each region, e.g. A:(row i, column j)\n\n### Question:\n1 star.\n\nA        A        A        A        A        B        B        B\nA        A        A        C        C        B        C        B\nA        C        C        C        C        C        C        C\nA        D        D        D        D        D        D        C\nA        D        E        E        E        E        D        C\nA        A        E        F        E        E        E        C\nA        F        F        F        E        E        E        G\nA        A        H        H        G        G        G        G\n\nOutput in alphabetical order, if there are more than one stellar coordinates in a region, write the coordinates of the answer with the smallest number of rows first, if the number of rows is the same, then write the one with the smallest number of columns first, and the coordinates of the different regions are separated by a line breaker.",
+        "answer": [
+            "[[A(2,1)\nB(1,7)\nC(3,5)\nD(4,2)\nE(6,5)\nF(4,6)\nG(7,8)\nH(8,3)]]"
+        ],
+        "img_path": "",
+        "meta_info": "puzzle"
+    },
+    {
+        "id": 60,
+        "question": "### Puzzle Rule:\n\n1.Each puzzle contains a number of elements and attributes, and a description of them.\n2.The descriptions are usually presented in the form of clues, each of which provides part of the information, and all of which are true and do not contradict each other.\n3.The information provided by the clues needs to be combined and analyzed to match elements to attributes.\n\n### Question:\n1.Kendra didn't win the leadership badge.\n2.Wendy won the swimming badge.\n3.Elaine won the first aid badge.\n4.Wendy was awarded before Tara.\n5.The youngster who won the theater badge was awarded 1 spot after the scout who won the first aid badge.\n6.The youngster who won the dance badge was awarded 1 spot before the girl who won the leadership badge.\n7.Elaine was awarded 2 spots after the youngster who won the leadership badge.\n\nThe output should contain five entries, each containing three fields in order: Orders Girls Badges (the header does not need to be given), the fields separated by spaces and the entries separated by commas.\nArrange the entries in order: the first field is first,second,third,fourth,fifth respectively.\nFinally, enclose the entire answer in double brackets, like this: [[...]].\n\n### Answer:",
+        "answer": [
+            "[[first Kendra dance,second Vickie leadership,third Wendy swimming,fourth Elaine first aid,fifth Tara theater]]"
+        ],
+        "img_path": "",
+        "meta_info": "puzzle"
+    },
+    {
+        "id": 61,
+        "question": "### Puzzle Rule:\n\n1.The game is played on a square grid of letters.\n2.The player is given a set of words to find on the grid.\n3.The words can be arranged horizontally, vertically, diagonally, backwards or staggered.\n4.Find all hidden words and label them.\n\n### Question:\nJ  R  E  V  U  O  C  N  A  V  J\n\nW  E  U  V  A  L  G  H  Z  T  J\n\nF  I  L  E  A  J  Y  T  E  I  G\n\nW  T  I  R  A  L  E  I  G  H  S\n\nL  R  K  R  T  E  L  M  V  C  L\n\nA  A  L  A  D  O  J  S  O  B  H\n\nR  C  A  Z  J  C  B  O  I  Q  X\n\nY  V  R  Z  U  E  K  A  R  D  V\n\nB  Z  B  A  U  M  F  T  C  I  W\n\nK  G  A  N  A  L  L  E  G  A  M\n\nJ  W  C  O  L  U  M  B  U  S  W\n\n\nWord List:\nCABOT DRAKE CABRAL.\nThe answer should be the coordinates of the start and end points of these words in the format (row i, column j), e.g., BACH (12,4)(12,1) means that the word BACH starts with a letter in column 4 of row 12 and ends with a letter in column 1 of row 12. The output order should be the same as the order in the word list. Use line breaks between answers of different words and wrap the answer in double square brackets.\ne.g.\nSuppose the word list is BACH MOZART BRAHMS\nThe answer should be:\n[[BACH (12,4)(12,1) \nMOZART(13,7)(13,2) \nBRAHMS (7,7)(12,12)]]\n\n### Answer:",
+        "answer": [
+            "[[CABOT (9,9)(5,5)\nDRAKE (8,10)(8,6)\nCABRAL (11,3)(6,3)]]"
+        ],
+        "img_path": "",
+        "meta_info": "puzzle"
+    },
+    {
+        "id": 68,
+        "question": "### Puzzle Rule:\n\n1.Randomly select four numbers from 1-13, the numbers can have repetition.\n2.Using the four basic operation symbols of addition (+), subtraction (-), multiplication (×), and division (÷).\n3.Can also use parentheses to change the order of operations.\n4.The result is equal to 24.\n5.Each number must be used and can be used only once.\n\n### Question:\nThe four randomly selected numbers are:\n5 7 7 2.\nYour answer should be in the form of a calculation expression, like this: a + b / c - d, giving one answer is sufficient.\nWrap your final answer in double square brackets, like this: [[a + b / c - d]].\n\n### Answer:",
+        "answer": [
+            "[[5*2+(7+7)\n7+(7+5*2)]]"
+        ],
+        "img_path": "",
+        "meta_info": "puzzle"
+    },
+    {
+        "id": 75,
+        "question": "### Puzzle Rule:\n\n1.The game is played on an n*n grid, with skyscrapers placed in all cells on the grid.\n2.Skyscrapers have a height of 1 to the size of the grid, i.e. 1 to 4 for a 4x4 puzzle.\n3.You cannot have two skyscrapers of the same height in the same row or column.\n4.The numbers on the sides of the boxes indicate how many skyscrapers you would see if you looked in the direction of the arrows, since taller buildings will be blocked by shorter ones.\n5.Fill in the numbers in each cell to indicate the height of the skyscrapers.\n6.The topic consists of an n*n matrix filled with X, with the numerical constraints mentioned above attached to the top and bottom.\n\n### Question:\nGrid Layout:\n\t2\t3\t2\t1\t\n3\tX\tX\tX\tX\t1\n1\tX\tX\tX\tX\t3\n2\tX\tX\tX\tX\t2\n2\tX\tX\tX\tX\t2\n\t2\t2\t1\t3\nThe answer should be given from left to right, top to bottom. Separate elements with a space and rows with a comma. Wrap the entire answer in double square brackets.\n\n### Answer:",
+        "answer": [
+            "[[2 1 3 4,4 3 1 2,1 4 2 3,3 2 4 1]]"
+        ],
+        "img_path": "",
+        "meta_info": "puzzle"
+    },
+    {
+        "id": 89,
+        "question": "### Puzzle Rule:\n\n1.The game gives a formula of letters, each representing a unique number (0-9). \n2.Different letters cannot represent the same number.\n3.The first letter of any multi-digit number cannot represent 0.\n\n### Question:\nFIFTY+STATES=AMERICA.\nPlease provide your answer in the form: letter=number, and make sure to enclose your answer in double square brackets, like this: [[A=1,B=2,...]].\n\n### Answer:",
+        "answer": [
+            "[[F=5,I=5,Y=8,Y=2,S=9,A=1,E=4,M=0,R=7,C=3]]"
+        ],
+        "img_path": "",
+        "meta_info": "puzzle"
+    }
+]
