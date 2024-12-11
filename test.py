@@ -210,7 +210,7 @@ def main():
     system_prompt_score = score.sum(axis=-1)
     attack_prompt_score = score.sum(axis=0)
     best_system_prompt_idx = np.argmax(system_prompt_score)
-    best_attack_prompt_idx = np.argmax(attack_prompt_score)
+    best_attack_prompt_idx = np.argmin(attack_prompt_score)
     best_system_prompt = [system_prompts[best_system_prompt_idx]]
     best_attack_prompt = [
         {
